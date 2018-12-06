@@ -1,0 +1,197 @@
+[
+    [
+        "/Users/naveenkoka/Documents/NA/sfdx/smartrep/force-app",
+        {
+            "state": "n",
+            "sourcePath": "/Users/naveenkoka/Documents/NA/sfdx/smartrep/force-app",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 136,
+            "modifiedTime": 1544035013000,
+            "changeTime": 1544035013000,
+            "contentHash": "51d86f3b64a3d9a0048d192f02147b0e9e9594e4",
+            "isWorkspace": false,
+            "isArtifactRoot": true
+        }
+    ],
+    [
+        "/Users/naveenkoka/Documents/NA/sfdx/smartrep/force-app/main",
+        {
+            "state": "n",
+            "sourcePath": "/Users/naveenkoka/Documents/NA/sfdx/smartrep/force-app/main",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 136,
+            "modifiedTime": 1544035019000,
+            "changeTime": 1544035019000,
+            "contentHash": "ae41ed56706e4439a34cda97ac997d7988935c2f",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/naveenkoka/Documents/NA/sfdx/smartrep/force-app/main/default",
+        {
+            "state": "n",
+            "sourcePath": "/Users/naveenkoka/Documents/NA/sfdx/smartrep/force-app/main/default",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 204,
+            "modifiedTime": 1544035347000,
+            "changeTime": 1544035347000,
+            "contentHash": "3fba3aa604bc3b6efb1c0c69a52a8eaa32043fa3",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/naveenkoka/Documents/NA/sfdx/smartrep/force-app/main/default/aura",
+        {
+            "state": "n",
+            "sourcePath": "/Users/naveenkoka/Documents/NA/sfdx/smartrep/force-app/main/default/aura",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 68,
+            "modifiedTime": 1544034976000,
+            "changeTime": 1544034976000,
+            "contentHash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/naveenkoka/Documents/NA/sfdx/smartrep/force-app/main/default/layouts",
+        {
+            "state": "n",
+            "sourcePath": "/Users/naveenkoka/Documents/NA/sfdx/smartrep/force-app/main/default/layouts",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 102,
+            "modifiedTime": 1544035347000,
+            "changeTime": 1544035347000,
+            "contentHash": "10fafd85c414ce372a18823aae39fa9bfa0e94c4",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/naveenkoka/Documents/NA/sfdx/smartrep/force-app/main/default/layouts/Smart_Metadata__c-Smart Metadata Layout.layout-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "/Users/naveenkoka/Documents/NA/sfdx/smartrep/force-app/main/default/layouts/Smart_Metadata__c-Smart Metadata Layout.layout-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 2941,
+            "modifiedTime": 1544035347000,
+            "changeTime": 1544035347000,
+            "contentHash": "264e8e95459d3dbe76893ffdbb447c373ed2e192",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/naveenkoka/Documents/NA/sfdx/smartrep/force-app/main/default/objects",
+        {
+            "state": "n",
+            "sourcePath": "/Users/naveenkoka/Documents/NA/sfdx/smartrep/force-app/main/default/objects",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 102,
+            "modifiedTime": 1544035347000,
+            "changeTime": 1544035347000,
+            "contentHash": "99225011ffc8fcc3e534cbc3269d061868a7568b",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/naveenkoka/Documents/NA/sfdx/smartrep/force-app/main/default/objects/Smart_Metadata__c",
+        {
+            "state": "n",
+            "sourcePath": "/Users/naveenkoka/Documents/NA/sfdx/smartrep/force-app/main/default/objects/Smart_Metadata__c",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 136,
+            "modifiedTime": 1544035347000,
+            "changeTime": 1544035347000,
+            "contentHash": "9364d68c070bb2a8785b685c2179a1e15449bfbf",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/naveenkoka/Documents/NA/sfdx/smartrep/force-app/main/default/objects/Smart_Metadata__c/Smart_Metadata__c.object-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "/Users/naveenkoka/Documents/NA/sfdx/smartrep/force-app/main/default/objects/Smart_Metadata__c/Smart_Metadata__c.object-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 2212,
+            "modifiedTime": 1544035347000,
+            "changeTime": 1544035347000,
+            "contentHash": "387cc34068df32eb76278c7b714e84cb5912c76e",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/naveenkoka/Documents/NA/sfdx/smartrep/force-app/main/default/objects/Smart_Metadata__c/fields",
+        {
+            "state": "n",
+            "sourcePath": "/Users/naveenkoka/Documents/NA/sfdx/smartrep/force-app/main/default/objects/Smart_Metadata__c/fields",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 136,
+            "modifiedTime": 1544035347000,
+            "changeTime": 1544035347000,
+            "contentHash": "2bdd1c4154a3404ee71f4608cc7ada6868bee30f",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/naveenkoka/Documents/NA/sfdx/smartrep/force-app/main/default/objects/Smart_Metadata__c/fields/Smart_Description__c.field-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "/Users/naveenkoka/Documents/NA/sfdx/smartrep/force-app/main/default/objects/Smart_Metadata__c/fields/Smart_Description__c.field-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 518,
+            "modifiedTime": 1544035347000,
+            "changeTime": 1544035347000,
+            "contentHash": "2a6ea3c1ae8e776eff1d3f4196799e7be23eb5a7",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/naveenkoka/Documents/NA/sfdx/smartrep/force-app/main/default/objects/Smart_Metadata__c/fields/Smart_Name__c.field-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "/Users/naveenkoka/Documents/NA/sfdx/smartrep/force-app/main/default/objects/Smart_Metadata__c/fields/Smart_Name__c.field-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 523,
+            "modifiedTime": 1544035347000,
+            "changeTime": 1544035347000,
+            "contentHash": "0e2493cf762e78d1f89ad33cc5f2f529ea68a21b",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/naveenkoka/Documents/NA/sfdx/smartrep",
+        {
+            "state": "n",
+            "sourcePath": "/Users/naveenkoka/Documents/NA/sfdx/smartrep",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 340,
+            "modifiedTime": 1544035370000,
+            "changeTime": 1544035370000,
+            "contentHash": "dc80a4dbb45e5292a3477593a45a05962dc3b21f",
+            "isWorkspace": true,
+            "isArtifactRoot": false
+        }
+    ]
+]
