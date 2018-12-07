@@ -1,4 +1,15 @@
 <aura:component implements="force:appHostable,flexipage:availableForAllPageTypes" access="global">
-    <c:SM_AD_Header />
+    <aura:handler event="c:SpinnerEvent" action="{!c.handleSpinner}" />
+    <aura:attribute name="IsSpinner" type="Boolean" default="true"/>
+    <aura:if isTrue="{!v.IsSpinner}">
+        <lightning:spinner />
+    </aura:if>
+    <div class="slds-p-horizontal_x-small">
+        <c:SM_AD_Header />
+        <div class="slds-p-top_small">
+            <div class="slds-border_top">
+            </div>
+        </div>
+    </div>
     
 </aura:component>

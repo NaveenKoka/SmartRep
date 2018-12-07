@@ -1,5 +1,8 @@
 <aura:component implements="force:appHostable,flexipage:availableForAllPageTypes,flexipage:availableForRecordHome,force:hasRecordId,forceCommunity:availableForAllPageTypes,force:lightningQuickAction" access="global" controller="SM_AD_Services">
-	<aura:attribute name="ViewType" type="String[]" default=" List, Hierarchy" />
+	
+    <aura:registerEvent name="spinnerEvent" type="c:SpinnerEvent"/>
+    
+    <aura:attribute name="ViewType" type="String[]" default=" List, Hierarchy" />
     <aura:attribute name="AvailableObjects" type="Object[]" default=" {}" />
     <aura:attribute name="PageHeading" type="String" default="Smart Rep Admin" />
     
@@ -22,7 +25,7 @@
   <div class="slds-col">
       <lightning:select label="Select an object" name="selectedObject">
         <aura:iteration items="{!v.AvailableObjects}" var="object">
-            <option value="{!object.objectName}" text="{!object.objectName}" />  
+            <option value="{!object.objectName}" text="{!object.label}" />  
         </aura:iteration>
     </lightning:select>
   </div>
