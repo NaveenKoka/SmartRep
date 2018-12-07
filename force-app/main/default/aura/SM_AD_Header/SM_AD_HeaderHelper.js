@@ -16,5 +16,11 @@
             $A.enqueueAction(action);
         });
         
+    },
+    
+    triggerSpinnerEvent : function(isEnabled){
+        var spinnerEvent = $A.get("e.c:SpinnerEvent");
+        spinnerEvent.setParams({"isEnabled" : isEnabled });
+        spinnerEvent.fire();
     }
 })
