@@ -1,26 +1,27 @@
 <aura:component implements="force:appHostable,flexipage:availableForAllPageTypes,flexipage:availableForRecordHome,force:hasRecordId,forceCommunity:availableForAllPageTypes,force:lightningQuickAction" access="global" controller="SM_AD_Services">
 
-    <aura:attribute name="ViewType" type="String[]" default=" List, Hierarchy" />
-    <aura:attribute name="AvailableObjects" type="Object[]" default=" {}" />
-    <aura:attribute name="PageHeading" type="String" default="Smart Rep Admin" />
+    <aura:attribute name="viewType" type="String[]" default=" List, Hierarchy" />
+    <aura:attribute name="availableObjects" type="Object[]" default=" {}" />
+    <aura:attribute name="pageHeading" type="String" default="Smart Rep Admin" />
+    <aura:attribute name="selectedObjectName" type="String" default=""/>
     <div class="slds-page-header">
         <div class="slds-align--absolute-center">
             <div class="slds-text-heading--large">
-                {!v.PageHeading}
+                {!v.pageHeading}
             </div>
         </div>
     </div>
     <div class="slds-grid slds-gutters">
         <div class="slds-col">
             <lightning:select label="Select the view" name="selectedViewType">
-                <aura:iteration items="{!v.ViewType}" var="view">
+                <aura:iteration items="{!v.viewType}" var="view">
                     <option value="{!view}" text="{!view}" />  
                 </aura:iteration>
             </lightning:select>
         </div>
         <div class="slds-col">
-            <lightning:select label="Select an object" name="selectedObject">
-                <aura:iteration items="{!v.AvailableObjects}" var="object">
+            <lightning:select label="Select an object" name="selectedObject" value="{!v.selectedObjectName}">
+                <aura:iteration items="{!v.availableObjects}" var="object">
                     <option value="{!object.objectName}" text="{!object.label}" />  
                 </aura:iteration>
             </lightning:select>
