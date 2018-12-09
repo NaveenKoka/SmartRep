@@ -1,15 +1,20 @@
-<aura:component implements="force:appHostable,flexipage:availableForAllPageTypes" access="global">
+<aura:component implements="force:appHostable,flexipage:availableForAllPageTypes" access="global" controller="SM_AD_Services">
     <aura:handler event="c:SpinnerEvent" action="{!c.handleSpinner}" />
+    <aura:registerEvent name="spinnerEvent" type="c:SpinnerEvent"/>
     <aura:attribute name="IsSpinner" type="Boolean" default="true"/>
+    <aura:attribute name="AvailableObjects" type="Object[]" default=" {}" />
+    <aura:handler name="init" value="{!this}" action="{!c.doInit}"/>
     <aura:if isTrue="{!v.IsSpinner}">
         <lightning:spinner />
     </aura:if>
     <div class="slds-p-horizontal_x-small">
-        <c:SM_AD_Header />
+        <c:SM_AD_Header AvailableObjects="{!v.AvailableObjects}"/>
         <div class="slds-p-top_small">
             <div class="slds-border_top">
+                <c:SM_CMP_SplitView ListItems="item1, item2, item3"/>
             </div>
         </div>
     </div>
+    
     
 </aura:component>

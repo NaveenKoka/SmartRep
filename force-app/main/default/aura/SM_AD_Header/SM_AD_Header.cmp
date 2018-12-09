@@ -1,33 +1,29 @@
 <aura:component implements="force:appHostable,flexipage:availableForAllPageTypes,flexipage:availableForRecordHome,force:hasRecordId,forceCommunity:availableForAllPageTypes,force:lightningQuickAction" access="global" controller="SM_AD_Services">
-	
-    <aura:registerEvent name="spinnerEvent" type="c:SpinnerEvent"/>
-    
+
     <aura:attribute name="ViewType" type="String[]" default=" List, Hierarchy" />
     <aura:attribute name="AvailableObjects" type="Object[]" default=" {}" />
     <aura:attribute name="PageHeading" type="String" default="Smart Rep Admin" />
-    
-    <aura:handler name="init" value="{!this}" action="{!c.doInit}"/>
-        <div class="slds-page-header">
-            <div class="slds-align--absolute-center">
-                <div class="slds-text-heading--large">
-                    {!v.PageHeading}
-                </div>
+    <div class="slds-page-header">
+        <div class="slds-align--absolute-center">
+            <div class="slds-text-heading--large">
+                {!v.PageHeading}
             </div>
         </div>
+    </div>
     <div class="slds-grid slds-gutters">
-  <div class="slds-col">
-    <lightning:select label="Select the view" name="selectedViewType">
-        <aura:iteration items="{!v.ViewType}" var="view">
-            <option value="{!view}" text="{!view}" />  
-        </aura:iteration>
-    </lightning:select>
-  </div>
-  <div class="slds-col">
-      <lightning:select label="Select an object" name="selectedObject">
-        <aura:iteration items="{!v.AvailableObjects}" var="object">
-            <option value="{!object.objectName}" text="{!object.label}" />  
-        </aura:iteration>
-    </lightning:select>
-  </div>
-</div>
+        <div class="slds-col">
+            <lightning:select label="Select the view" name="selectedViewType">
+                <aura:iteration items="{!v.ViewType}" var="view">
+                    <option value="{!view}" text="{!view}" />  
+                </aura:iteration>
+            </lightning:select>
+        </div>
+        <div class="slds-col">
+            <lightning:select label="Select an object" name="selectedObject">
+                <aura:iteration items="{!v.AvailableObjects}" var="object">
+                    <option value="{!object.objectName}" text="{!object.label}" />  
+                </aura:iteration>
+            </lightning:select>
+        </div>
+    </div>
 </aura:component>
