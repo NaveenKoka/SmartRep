@@ -14,7 +14,9 @@
         <c:SM_AD_Header availableObjects="{!v.availableObjects}" selectedObjectName="{!v.selectedObjectName}"/>
         <div class="slds-p-top_small">
             <div class="slds-border_top">
-                <c:SM_CMP_SplitView ListItems="{!v.fields}"/>
+                <div class="slds-grid slds-gutters">
+                    <c:SM_CMP_RepDesignerView listItems="{!v.fields}"/>
+                </div>
             </div>
         </div>
     </div>

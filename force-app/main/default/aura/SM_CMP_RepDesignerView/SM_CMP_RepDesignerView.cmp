@@ -1,0 +1,27 @@
+<aura:component implements="flexipage:availableForAllPageTypes" access="global" >
+    <aura:attribute name="listItems" type="Object[]" default=""/>
+    <div class="slds-col slds-size_1-of-4">
+        <c:SM_CMP_SplitView listItems="{!v.listItems}"/>
+    </div>
+    <div class="slds-col slds-size_3-of-4">
+        <div class="slds-form-element slds-text-align_center">
+            <label class="slds-form-element__label slds-m-right_none" for="text-input-id-1">No. of Columns</label>
+            <div class="slds-form-element__control">
+                <button class="slds-button slds-button_icon slds-button_icon-small slds-input__button_decrement" title="Decrement counter">
+                    <lightning:icon iconName="utility:ban" size="xx-small" alternativeText="Decrement counter"/>
+                </button>
+                <input class="slds-input slds-input_counter" id="text-input-id-1" type="number" placeholder="1" value="" />
+                <button class="slds-button slds-button_icon slds-button_icon-small slds-input__button_increment" title="Increment counter">
+                    <lightning:icon iconName="utility:new" size="xx-small" alternativeText="Decrement counter"/>
+                </button>
+            </div>
+        </div>
+        <div class="slds-p-top_small">
+            <div class="slds-border_top">
+                <div class="slds-grid slds-gutters">
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</aura:component>
