@@ -1,5 +1,6 @@
 <aura:component implements="flexipage:availableForAllPageTypes" access="global" >
     <aura:attribute name="listItems" type="Object[]" default="List item with around divider with space, List Item" />
+    
     <div style="display: flex; height: 37.5rem;">
         <div class="slds-p-top_xx-small slds-split-view_container slds-is-open">
             <div className="slds-grid slds-grid_horizontal ">
@@ -10,11 +11,13 @@
             <button class="slds-button slds-button_icon slds-button_icon slds-split-view__toggle-button slds-is-open" aria-expanded="true">
                 <lightning:icon iconName="utility:left" size="xx-small" alternativeText="Drag"/>
             </button>
-            <ul class="slds-has-dividers_around-space">
+            <ul class="slds-has-dividers_around-space" aura:id="from-draggable">
                 <aura:iteration items="{!v.listItems}" var="item">
-                    <li class="slds-item"> {!item.label} </li>
+                    <li class="slds-item" aura:id="from-placekeeper"> {!item.label} </li>
                 </aura:iteration>
             </ul>
         </div>
     </div>
+    
+    
 </aura:component>

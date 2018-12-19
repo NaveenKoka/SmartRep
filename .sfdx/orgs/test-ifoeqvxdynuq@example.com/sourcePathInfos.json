@@ -32,29 +32,27 @@
     [
         "/Users/naveenkoka/Documents/NA/sfdx/smartrep/force-app/main/default",
         {
+            "state": "u",
             "sourcePath": "/Users/naveenkoka/Documents/NA/sfdx/smartrep/force-app/main/default",
             "isDirectory": true,
-            "size": 238,
-            "modifiedTime": 1544058895000,
-            "changeTime": 1544058895000,
-            "contentHash": "c3358edf0ccfcf32f312d7309dc78f3f816be237",
             "isMetadataFile": false,
-            "state": "u",
-            "isWorkspace": false,
-            "isArtifactRoot": false
+            "size": 272,
+            "modifiedTime": 1545094175000,
+            "changeTime": 1545094175000,
+            "contentHash": "7586c26cd6b68926cf76b516fb2bbde7ec638297"
         }
     ],
     [
         "/Users/naveenkoka/Documents/NA/sfdx/smartrep/force-app/main/default/aura",
         {
-            "state": "u",
             "sourcePath": "/Users/naveenkoka/Documents/NA/sfdx/smartrep/force-app/main/default/aura",
             "isDirectory": true,
-            "isMetadataFile": false,
             "size": 272,
             "modifiedTime": 1544661790000,
             "changeTime": 1544661790000,
-            "contentHash": "ae4c546f4a17d574d7a9903b318d20866f10a3ef"
+            "contentHash": "ae4c546f4a17d574d7a9903b318d20866f10a3ef",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
@@ -150,16 +148,14 @@
     [
         "/Users/naveenkoka/Documents/NA/sfdx/smartrep/force-app/main/default/aura/SM_CMP_SplitView",
         {
+            "state": "u",
             "sourcePath": "/Users/naveenkoka/Documents/NA/sfdx/smartrep/force-app/main/default/aura/SM_CMP_SplitView",
             "isDirectory": true,
-            "size": 136,
-            "modifiedTime": 1544336688000,
-            "changeTime": 1544336688000,
-            "contentHash": "ebc25179167e76696d58cb27cc8600dd6c3de42f",
             "isMetadataFile": false,
-            "state": "u",
-            "isWorkspace": false,
-            "isArtifactRoot": false
+            "size": 170,
+            "modifiedTime": 1545094175000,
+            "changeTime": 1545094175000,
+            "contentHash": "c9b27b97de7b7fcdb97be4f6fbbae917018d2bf2"
         }
     ],
     [
@@ -169,10 +165,10 @@
             "sourcePath": "/Users/naveenkoka/Documents/NA/sfdx/smartrep/force-app/main/default/aura/SM_CMP_SplitView/SM_CMP_SplitView.cmp",
             "isDirectory": false,
             "isMetadataFile": false,
-            "size": 1090,
-            "modifiedTime": 1544661790000,
-            "changeTime": 1544661790000,
-            "contentHash": "48eb4e24bbd3700136bf3fe3ae1ab984f1747e4f"
+            "size": 1157,
+            "modifiedTime": 1545094175000,
+            "changeTime": 1545094175000,
+            "contentHash": "94de421eaf514cf0575b33fe11374f6d53e3d905"
         }
     ],
     [
@@ -241,7 +237,7 @@
             "sourcePath": "/Users/naveenkoka/Documents/NA/sfdx/smartrep/force-app/main/default/aura/SmartAdminComp",
             "isDirectory": true,
             "size": 204,
-            "modifiedTime": 1544336688000,
+            "modifiedTime": 1544661790000,
             "changeTime": 1544336688000,
             "contentHash": "4d73230ec4f9895f57264c41a432047c3a008d3d",
             "isMetadataFile": false,
@@ -253,14 +249,14 @@
     [
         "/Users/naveenkoka/Documents/NA/sfdx/smartrep/force-app/main/default/aura/SmartAdminComp/SmartAdminComp.cmp",
         {
-            "state": "u",
             "sourcePath": "/Users/naveenkoka/Documents/NA/sfdx/smartrep/force-app/main/default/aura/SmartAdminComp/SmartAdminComp.cmp",
             "isDirectory": false,
-            "isMetadataFile": false,
             "size": 1267,
             "modifiedTime": 1544661790000,
             "changeTime": 1544661790000,
-            "contentHash": "af6b1e93b262d6640fe571f40e8ec96979e60ae0"
+            "contentHash": "af6b1e93b262d6640fe571f40e8ec96979e60ae0",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
@@ -566,14 +562,14 @@
     [
         "/Users/naveenkoka/Documents/NA/sfdx/smartrep/force-app/main/default/aura/SM_CMP_RepDesignerView/SM_CMP_RepDesignerView.cmp-meta.xml",
         {
-            "state": "u",
             "sourcePath": "/Users/naveenkoka/Documents/NA/sfdx/smartrep/force-app/main/default/aura/SM_CMP_RepDesignerView/SM_CMP_RepDesignerView.cmp-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 228,
             "modifiedTime": 1544661790000,
             "changeTime": 1544661790000,
-            "contentHash": "5217b92ebc2fd18b1fa120b9e273319a153146a7"
+            "contentHash": "5217b92ebc2fd18b1fa120b9e273319a153146a7",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ],
     [
@@ -583,10 +579,10 @@
             "sourcePath": "/Users/naveenkoka/Documents/NA/sfdx/smartrep/force-app/main/default/aura/SM_CMP_RepDesignerView/SM_CMP_RepDesignerView.cmp",
             "isDirectory": false,
             "isMetadataFile": false,
-            "size": 1491,
-            "modifiedTime": 1544661790000,
-            "changeTime": 1544661790000,
-            "contentHash": "315eb15fa8651320fd639becc65bb492534b2072"
+            "size": 3555,
+            "modifiedTime": 1545094175000,
+            "changeTime": 1545094175000,
+            "contentHash": "3d9dd94b0b145942d07f070834e1fa1e6d19011a"
         }
     ],
     [
@@ -596,10 +592,231 @@
             "sourcePath": "/Users/naveenkoka/Documents/NA/sfdx/smartrep/force-app/main/default/aura/SM_CMP_RepDesignerView",
             "isDirectory": true,
             "isMetadataFile": false,
+            "size": 204,
+            "modifiedTime": 1545094175000,
+            "changeTime": 1545094175000,
+            "contentHash": "2608d2f621dd1e24bc8c49c0df7b14528b128e8d"
+        }
+    ],
+    [
+        "/Users/naveenkoka/Documents/NA/sfdx/smartrep/force-app/main/default/aura/SM_CMP_RepDesignerView/SM_CMP_RepDesignerViewController.js",
+        {
+            "state": "u",
+            "sourcePath": "/Users/naveenkoka/Documents/NA/sfdx/smartrep/force-app/main/default/aura/SM_CMP_RepDesignerView/SM_CMP_RepDesignerViewController.js",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 1307,
+            "modifiedTime": 1545094175000,
+            "changeTime": 1545094175000,
+            "contentHash": "39021ec57598758d5d4464b31ea37b62a678f855"
+        }
+    ],
+    [
+        "/Users/naveenkoka/Documents/NA/sfdx/smartrep/force-app/main/default/staticresources/SREP_RESOURCES.resource-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "/Users/naveenkoka/Documents/NA/sfdx/smartrep/force-app/main/default/staticresources/SREP_RESOURCES.resource-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 295,
+            "modifiedTime": 1545094175000,
+            "changeTime": 1545094175000,
+            "contentHash": "73392d435532d57308a07da40185d7ccd58821f2"
+        }
+    ],
+    [
+        "/Users/naveenkoka/Documents/NA/sfdx/smartrep/force-app/main/default/staticresources/SREP_RESOURCES/SREP_RESOURCES/.DS_Store",
+        {
+            "state": "u",
+            "sourcePath": "/Users/naveenkoka/Documents/NA/sfdx/smartrep/force-app/main/default/staticresources/SREP_RESOURCES/SREP_RESOURCES/.DS_Store",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 6148,
+            "modifiedTime": 1545094175000,
+            "changeTime": 1545094175000,
+            "contentHash": "c9e79a1900871ce50f5d8d1064ecfc9e14861b5b"
+        }
+    ],
+    [
+        "/Users/naveenkoka/Documents/NA/sfdx/smartrep/force-app/main/default/staticresources/SREP_RESOURCES/SREP_RESOURCES/dragula/dragula.min.css",
+        {
+            "state": "u",
+            "sourcePath": "/Users/naveenkoka/Documents/NA/sfdx/smartrep/force-app/main/default/staticresources/SREP_RESOURCES/SREP_RESOURCES/dragula/dragula.min.css",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 466,
+            "modifiedTime": 1545094175000,
+            "changeTime": 1545094175000,
+            "contentHash": "49c47fd5f787a7ee408b0a76eb8b6948ad74337b"
+        }
+    ],
+    [
+        "/Users/naveenkoka/Documents/NA/sfdx/smartrep/force-app/main/default/staticresources/SREP_RESOURCES/SREP_RESOURCES/dragula/dragula.min.js",
+        {
+            "state": "u",
+            "sourcePath": "/Users/naveenkoka/Documents/NA/sfdx/smartrep/force-app/main/default/staticresources/SREP_RESOURCES/SREP_RESOURCES/dragula/dragula.min.js",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 11396,
+            "modifiedTime": 1545094175000,
+            "changeTime": 1545094175000,
+            "contentHash": "9de717081359c61799de523508c4ee8f63e006a0"
+        }
+    ],
+    [
+        "/Users/naveenkoka/Documents/NA/sfdx/smartrep/force-app/main/default/staticresources/SREP_RESOURCES/__MACOSX/SREP_RESOURCES/._.DS_Store",
+        {
+            "state": "u",
+            "sourcePath": "/Users/naveenkoka/Documents/NA/sfdx/smartrep/force-app/main/default/staticresources/SREP_RESOURCES/__MACOSX/SREP_RESOURCES/._.DS_Store",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 120,
+            "modifiedTime": 1545094175000,
+            "changeTime": 1545094175000,
+            "contentHash": "11050c2745c99ec8dacff161c2a0a22ffacb8b47"
+        }
+    ],
+    [
+        "/Users/naveenkoka/Documents/NA/sfdx/smartrep/force-app/main/default/staticresources/SREP_RESOURCES/__MACOSX/SREP_RESOURCES/dragula/._dragula.min.css",
+        {
+            "state": "u",
+            "sourcePath": "/Users/naveenkoka/Documents/NA/sfdx/smartrep/force-app/main/default/staticresources/SREP_RESOURCES/__MACOSX/SREP_RESOURCES/dragula/._dragula.min.css",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 222,
+            "modifiedTime": 1545094175000,
+            "changeTime": 1545094175000,
+            "contentHash": "c5409e8e576a2414c0733988dc6438f9c6129705"
+        }
+    ],
+    [
+        "/Users/naveenkoka/Documents/NA/sfdx/smartrep/force-app/main/default/staticresources/SREP_RESOURCES/__MACOSX/SREP_RESOURCES/dragula/._dragula.min.js",
+        {
+            "state": "u",
+            "sourcePath": "/Users/naveenkoka/Documents/NA/sfdx/smartrep/force-app/main/default/staticresources/SREP_RESOURCES/__MACOSX/SREP_RESOURCES/dragula/._dragula.min.js",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 222,
+            "modifiedTime": 1545094175000,
+            "changeTime": 1545094175000,
+            "contentHash": "c5409e8e576a2414c0733988dc6438f9c6129705"
+        }
+    ],
+    [
+        "/Users/naveenkoka/Documents/NA/sfdx/smartrep/force-app/main/default/aura/SM_CMP_RepDesignerView/SM_CMP_RepDesignerViewHelper.js",
+        {
+            "state": "u",
+            "sourcePath": "/Users/naveenkoka/Documents/NA/sfdx/smartrep/force-app/main/default/aura/SM_CMP_RepDesignerView/SM_CMP_RepDesignerViewHelper.js",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 334,
+            "modifiedTime": 1545094175000,
+            "changeTime": 1545094175000,
+            "contentHash": "36496681abe6c2918aee9f9624becf94a7da4180"
+        }
+    ],
+    [
+        "/Users/naveenkoka/Documents/NA/sfdx/smartrep/force-app/main/default/aura/SM_CMP_SplitView/SM_CMP_SplitViewController.js",
+        {
+            "state": "u",
+            "sourcePath": "/Users/naveenkoka/Documents/NA/sfdx/smartrep/force-app/main/default/aura/SM_CMP_SplitView/SM_CMP_SplitViewController.js",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 5,
+            "modifiedTime": 1545094175000,
+            "changeTime": 1545094175000,
+            "contentHash": "82be1d8a61502a7584b9255940873d4327e226f6"
+        }
+    ],
+    [
+        "/Users/naveenkoka/Documents/NA/sfdx/smartrep/force-app/main/default/staticresources",
+        {
+            "state": "u",
+            "sourcePath": "/Users/naveenkoka/Documents/NA/sfdx/smartrep/force-app/main/default/staticresources",
+            "isDirectory": true,
+            "isMetadataFile": false,
             "size": 136,
-            "modifiedTime": 1544661790000,
-            "changeTime": 1544661790000,
-            "contentHash": "9202e25b5da85e234d237f39429a75ff26e51df4"
+            "modifiedTime": 1545094175000,
+            "changeTime": 1545094175000,
+            "contentHash": "ba113644b2da0946071514be1a33e07ba0858aae"
+        }
+    ],
+    [
+        "/Users/naveenkoka/Documents/NA/sfdx/smartrep/force-app/main/default/staticresources/SREP_RESOURCES/SREP_RESOURCES",
+        {
+            "state": "u",
+            "sourcePath": "/Users/naveenkoka/Documents/NA/sfdx/smartrep/force-app/main/default/staticresources/SREP_RESOURCES/SREP_RESOURCES",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 136,
+            "modifiedTime": 1545094175000,
+            "changeTime": 1545094175000,
+            "contentHash": "d57d094ab57b815dfd67dfb09e8c72f06107b3d1"
+        }
+    ],
+    [
+        "/Users/naveenkoka/Documents/NA/sfdx/smartrep/force-app/main/default/staticresources/SREP_RESOURCES",
+        {
+            "state": "u",
+            "sourcePath": "/Users/naveenkoka/Documents/NA/sfdx/smartrep/force-app/main/default/staticresources/SREP_RESOURCES",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 136,
+            "modifiedTime": 1545094175000,
+            "changeTime": 1545094175000,
+            "contentHash": "0ed1405f0204559839858d13aa6a2a1521e09c3e"
+        }
+    ],
+    [
+        "/Users/naveenkoka/Documents/NA/sfdx/smartrep/force-app/main/default/staticresources/SREP_RESOURCES/SREP_RESOURCES/dragula",
+        {
+            "state": "u",
+            "sourcePath": "/Users/naveenkoka/Documents/NA/sfdx/smartrep/force-app/main/default/staticresources/SREP_RESOURCES/SREP_RESOURCES/dragula",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 136,
+            "modifiedTime": 1545094175000,
+            "changeTime": 1545094175000,
+            "contentHash": "016258ffd38904d059a6cfe9484f25c74678d06e"
+        }
+    ],
+    [
+        "/Users/naveenkoka/Documents/NA/sfdx/smartrep/force-app/main/default/staticresources/SREP_RESOURCES/__MACOSX/SREP_RESOURCES",
+        {
+            "state": "u",
+            "sourcePath": "/Users/naveenkoka/Documents/NA/sfdx/smartrep/force-app/main/default/staticresources/SREP_RESOURCES/__MACOSX/SREP_RESOURCES",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 136,
+            "modifiedTime": 1545094175000,
+            "changeTime": 1545094175000,
+            "contentHash": "63a4da1bbf3d8d47cb612cabab3ceb48ac801786"
+        }
+    ],
+    [
+        "/Users/naveenkoka/Documents/NA/sfdx/smartrep/force-app/main/default/staticresources/SREP_RESOURCES/__MACOSX",
+        {
+            "state": "u",
+            "sourcePath": "/Users/naveenkoka/Documents/NA/sfdx/smartrep/force-app/main/default/staticresources/SREP_RESOURCES/__MACOSX",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 102,
+            "modifiedTime": 1545094175000,
+            "changeTime": 1545094175000,
+            "contentHash": "9b35bfa5b09ebce5aa61576c0fa7a8b0a1f97740"
+        }
+    ],
+    [
+        "/Users/naveenkoka/Documents/NA/sfdx/smartrep/force-app/main/default/staticresources/SREP_RESOURCES/__MACOSX/SREP_RESOURCES/dragula",
+        {
+            "state": "u",
+            "sourcePath": "/Users/naveenkoka/Documents/NA/sfdx/smartrep/force-app/main/default/staticresources/SREP_RESOURCES/__MACOSX/SREP_RESOURCES/dragula",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 136,
+            "modifiedTime": 1545094175000,
+            "changeTime": 1545094175000,
+            "contentHash": "4554307948c6f8277108e867f0932ecbc721c76d"
         }
     ]
 ]

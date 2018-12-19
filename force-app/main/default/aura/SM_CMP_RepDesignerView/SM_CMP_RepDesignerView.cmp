@@ -1,27 +1,59 @@
 <aura:component implements="flexipage:availableForAllPageTypes" access="global" >
     <aura:attribute name="listItems" type="Object[]" default=""/>
-    <div class="slds-col slds-size_1-of-4">
-        <c:SM_CMP_SplitView listItems="{!v.listItems}"/>
+    <aura:attribute name="colCount" type="List" default="[1,2,3,4,5,6,7,8,9,10]"/>
+    <aura:attribute name="countDisplayVal" type="Integer" default="1"/>
+    <div class="slds-col slds-size_1-of-4 from-draggable" >
+        <!--<c:SM_CMP_SplitView aura:id="from-draggable" listItems="{!v.listItems}"/>-->
+        <div style="display: flex; height: 37.5rem;">
+        <div class="slds-p-top_xx-small slds-split-view_container slds-is-open">
+            <div className="slds-grid slds-grid_horizontal ">
+                <div className="slds-split-view__list-header slds-grid slds-text-title_caps">
+                    
+                </div>
+            </div>
+            <button class="slds-button slds-button_icon slds-button_icon slds-split-view__toggle-button slds-is-open" aria-expanded="true">
+                <lightning:icon iconName="utility:left" size="xx-small" alternativeText="Drag"/>
+            </button>
+            <ul class="slds-has-dividers_around-space" aura:id="from-draggable">
+                <aura:iteration items="{!v.listItems}" var="item">
+                    <li class="slds-item" aura:id="from-placekeeper"> {!item.label} </li>
+                </aura:iteration>
+            </ul>
+        </div>
     </div>
-    <div class="slds-col slds-size_3-of-4">
+    </div>
+    <div class="slds-col slds-size_3-of-4" >
         <div class="slds-form-element slds-text-align_center">
             <label class="slds-form-element__label slds-m-right_none" for="text-input-id-1">No. of Columns</label>
             <div class="slds-form-element__control">
-                <button class="slds-button slds-button_icon slds-button_icon-small slds-input__button_decrement" title="Decrement counter">
-                    <lightning:icon iconName="utility:ban" size="xx-small" alternativeText="Decrement counter"/>
-                </button>
-                <input class="slds-input slds-input_counter" id="text-input-id-1" type="number" placeholder="1" value="" />
-                <button class="slds-button slds-button_icon slds-button_icon-small slds-input__button_increment" title="Increment counter">
-                    <lightning:icon iconName="utility:new" size="xx-small" alternativeText="Decrement counter"/>
-                </button>
+                <lightning:buttonIcon class="slds-button slds-button_icon slds-button_icon-small slds-input__button_decrement" iconName="utility:ban" size="small" alternativeText="Decrement counter"/>
+                <input class="slds-input slds-input_counter" id="text-input-id-1" type="number" placeholder="1" value="{!v.countDisplayVal}" />
+                <lightning:buttonIcon class="slds-button slds-button_icon slds-button_icon-small slds-input__button_increment" iconName="utility:new" size="small" alternativeText="Decrement counter" onclick="{!c.handleIncrementCounter}"/>
+                
             </div>
         </div>
         <div class="slds-p-top_small">
             <div class="slds-border_top">
                 <div class="slds-grid slds-gutters">
-                    
+                    <table class="slds-table slds-table_cell-buffer slds-table_bordered">
+                        <thead>
+                            <tr class="slds-line-height_reset" aura:id="to-draggable">
+                                <aura:iteration start="1" end="{!v.countDisplayVal}" items="{!v.colCount}" var="item">
+                                    
+                                    <th class="slds-text-title_caps" scope="col">
+                                        <div class="slds-truncate">Drag you column here</div>
+                                    </th>
+                                </aura:iteration> 
+                            </tr>
+                            
+                        </thead>
+                    </table>
                 </div>
             </div>
         </div>
     </div>
+    <ltng:require styles="{!$Resource.SREP_RESOURCES + '/SREP_RESOURCES/dragula/dragula.min.css'}"
+                  scripts="{!$Resource.SREP_RESOURCES + '/SREP_RESOURCES/dragula/dragula.min.js'}"
+              afterScriptsLoaded="{!c.afterDragulaLoaded}"
+              />
 </aura:component>
